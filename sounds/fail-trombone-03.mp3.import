@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fail-trombone-03.mp3-22e71c0b5b67854cf227d99c2a3cec0b.mp3str"
+
+[deps]
+
+source_file="res://sounds/fail-trombone-03.mp3"
+dest_files=[ "res://.import/fail-trombone-03.mp3-22e71c0b5b67854cf227d99c2a3cec0b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
