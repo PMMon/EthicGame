@@ -1,0 +1,112 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Canvas/Questions/images/grey_background.jpg" type="Texture" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 66
+outline_size = 8
+outline_color = Color( 0.694118, 0.109804, 0.109804, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 44
+outline_size = 4
+outline_color = Color( 0.694118, 0.109804, 0.109804, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 62
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 36
+outline_size = 3
+outline_color = Color( 0.694118, 0.109804, 0.109804, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 44
+font_data = ExtResource( 1 )
+
+[node name="RuleBackground" type="TextureRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Header" type="Label" parent="."]
+anchor_right = 1.0
+margin_top = 60.0
+margin_bottom = 80.0
+custom_fonts/font = SubResource( 1 )
+text = "Intermediate Rule!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text_1" type="Label" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -410.0
+custom_fonts/font = SubResource( 2 )
+text = "Now your individual 
+points count!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Next_1" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -86.0
+margin_top = -240.0
+margin_right = 86.0
+margin_bottom = -140.0
+custom_fonts/font = SubResource( 3 )
+text = "Next"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text_2" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -401.5
+margin_top = 60.0
+margin_right = 401.5
+margin_bottom = 373.0
+custom_fonts/font = SubResource( 4 )
+text = "• If both players earn more than 50 points, 
+both players will get the reward
+
+• If only one player earns more than 
+50 points, she/he will get both rewards
+
+• If no player earns more than 50 points, 
+no one gets the reward"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resume_2" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -119.0
+margin_top = -130.0
+margin_right = 119.0
+margin_bottom = -50.0
+custom_fonts/font = SubResource( 5 )
+text = "Resume"
